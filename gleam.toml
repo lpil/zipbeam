@@ -1,0 +1,14 @@
+name = "zipbeam"
+version = "1.0.0"
+description = "Bindings to Erlang's zip module"
+licences = ["Apache-2.0"]
+
+repository = { type = "github", user = "lpil", repo = "zipbeam" }
+links = [
+  { title = "Sponsor", href = "https://github.com/sponsors/lpil" },
+]
+
+[dependencies]
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
